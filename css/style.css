@@ -1,5 +1,5 @@
 *{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
     list-style: none;
 }
 
@@ -18,6 +18,10 @@ footer{
     color: aliceblue;
 }
 
+#barraul{
+    padding-left:77%;
+}
+
 .navega>ul>li{
     color: aliceblue;
 }
@@ -32,6 +36,3 @@ footer{
     color: aliceblue;
 }
 
-#barraul{
-    margin-left: 88%;
-}
