@@ -4,45 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repetição</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Tela de Login</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light navega">
-        <a class="navbar-brand" href="#">Minha Aplicação</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav" id="barraul">
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="barraid1">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="barraid2">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="barraid3">Contato</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <main>
-        <div class="container" id="bordaLogin">
-            <div class="">
-                <div class="">
-
-                    <div class="input-group mb-3 mt-4">
-                        <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                        <input type="text" class="form-control" placeholder="Pesquise seu Jogo!" aria-label="pesquise" aria-describedby="basic-addon1">
-                    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light navega">
+            <div class="container">
+                <a class="navbar-brand" href="#">Minha Aplicação</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav" id="barraul">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="barraid1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="barraid2">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="barraid3">Contato</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+    </header>
+    
+    <div id="bordaLogin">
+        <div class="borda">
+            <div class="container mt-5" id="login">
+                <h2 class="text-center">Procurar Jogos</h2>
+                <form>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" class="form-control" placeholder="Pesquisar Jogos!" aria-label="usuario"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <button id="btnlog" type="submit" class="btn navega btn-block">Buscar</button>
+                </form>
+
+                <!-- Cards Section -->
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card" style="cursor: pointer;" onclick="alert('Jogo 1 selecionado!')">
+                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Jogo 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Jogo 1</h5>
+                                <p class="card-text">Descrição breve do Jogo 1.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="cursor: pointer;" onclick="alert('Jogo 2 selecionado!')">
+                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Jogo 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Jogo 2</h5>
+                                <p class="card-text">Descrição breve do Jogo 2.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="cursor: pointer;" onclick="alert('Jogo 3 selecionado!')">
+                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Jogo 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Jogo 3</h5>
+                                <p class="card-text">Descrição breve do Jogo 3.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Cards Section -->
+
+            </div>
         </div>
-    </main>
-    <footer>
-        &copy; Todos os direitos reservados
-    </footer>
+    </div>
+    
+    <div class="container">
+        <footer>
+            &copy; Todos os direitos reservados
+        </footer>
+    </div>
+
 </body>
 </html>
