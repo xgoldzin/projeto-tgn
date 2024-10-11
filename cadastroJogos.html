@@ -30,6 +30,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#" id="barraid3">Contato</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="perfil.html" id="barraid4"><i id="userNav" class="fa-solid fa-circle-user fa-lg"></i></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -41,22 +44,25 @@
                     <h2 class="text-center">Cadastro de Jogos</h2>
                     <form>
                         <div class="input-group mb-3">
-                            <span class="input-group-text" id="usuario"><i
-                                    class="fa-solid fa-user fa-lg"></i></span>
-                            <input type="text" class="form-control" placeholder="Usuário" aria-label="usuario"
+                            <span class="input-group-text" id="imgJog"><i class="fa-solid fa-folder"></i></span>
+                            <input type="file" class="form-control" id="input" placeholder="Insira a imagem do jogo" />
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="nomeJog"><i class="fa-solid fa-signature"></i></span>
+                            <input type="password" class="form-control" placeholder="Nome do jogo" aria-label="nomejog"
                                 aria-describedby="basic-addon1">
                         </div>
                         <div class="input-group mb-3">
-                            <span class="input-group-text" id="senha"><i class="fa-solid fa-key"></i></span>
-                            <input type="password" class="form-control" placeholder="Senha" aria-label="senha"
-                                aria-describedby="basic-addon1">
+                            <span class="input-group-text" id="imgJog"><i class="fa-solid fa-gamepad"></i></span>
+                            <select class="form-select" aria-label="Default select example" id="tipoJogo">
+                                <option selected>Selecione o gênero do jogo</option>
+                                <option value="fps">Fps</option>
+                                <option value="moba">Moba</option>
+                                <option value="battleRoyale">Battle Royale</option>
+                            </select>
                         </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="confirmSenha"><i class="fa-solid fa-key"></i></span>
-                            <input type="password" class="form-control" placeholder="Confirme sua senha" aria-label="senha"
-                                aria-describedby="basic-addon1">
-                        </div>
-                        <a href="https://getbootstrap.com/docs/5.3/components/navbar/"><button id="btnlog" type="button" class="btn navega btn-block">Resgistre-se</button></a>
+                        <a href="https://getbootstrap.com/docs/5.3/components/navbar/"><button id="btnlog" type="button"
+                                class="btn navega btn-block">Resgistrar jogo</button></a>
                     </form>
                 </div>
             </div>
