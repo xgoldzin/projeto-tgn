@@ -5,7 +5,7 @@
 
 #bordaLogin{
     background-color: rgb(250, 250, 250);
-    padding: 265px 260px 300px 260px;
+    padding: 210px 260px 300px 260px;
 }
 
 footer{
@@ -34,5 +34,24 @@ footer{
 }
 #barraid3{
     color: aliceblue;
+}
+
+#userNav{
+    color: aliceblue;
+}
+
+#iconeUsuario{
+    font-size: 300px;
+    padding: 40% 0% 0% 48%;
+    color:rgb(41, 109, 255);
+}
+
+#infosUsuario{
+    padding: 5% 0% 5% 0%;
+    background-color: rgb(250, 250, 250);
+}
+
+#cards{
+    margin-top: 7%;
 }
 
