@@ -11,3 +11,4 @@ function cadastrarJogos() {
     let nomeJog = document.getElementById("nomeJog").value;
     let tipoJogo = document.getElementById("tipoJogo").value;
 }
+
