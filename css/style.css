@@ -131,3 +131,15 @@ hr {
 td{
     padding: 50px 20px;
 }
+
+.contato{
+    padding: 230px;
+}
+
+.fundocontato{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color:rgb(49, 49, 49);
+    /* padding: 25px 25px; */
+}
