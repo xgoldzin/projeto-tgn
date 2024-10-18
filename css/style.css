@@ -5,19 +5,28 @@
 }
 
 #bordaLogin{
-    background-color: rgb(32, 32, 32);
+    background-image: url('/img/wallpaper_tgn.png');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
     padding-top: 226px;
     padding-bottom: 226px;
 }
 
 #bordaLogin2{
-    background-color: rgb(32, 32, 32);
+    background-image: url('/img/wallpaper_tgn.png');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
     padding-top: 256px;
     padding-bottom: 256px;
 }
 
 #bordaLogin3{
-    background-color: rgb(32, 32, 32);
+    background-image: url('/img/wallpaper_tgn.png');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
     padding-top: 130px;
     padding-bottom: 130px;
 }
@@ -87,7 +96,10 @@ form{
 }
 
 #animes{
-    background-color: black;
+    background-image: url('/img/wallpaper_tgn.png');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
 }
 
 h1 {
