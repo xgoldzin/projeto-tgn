@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Jogos</title>
+    <title>Cadastro de Animes</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <main>
 
@@ -18,7 +21,7 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light navega">
                 <div class="container">
-                    <a class="navbar-brand " href="#">Minha Aplicação</a>
+                    <a class="navbar-brand " href="#"><b>ANIMAX</b></a>
                     <div class="collapse navbar-collapse">
                         <ul class="navbar-nav" id="barraul">
                             <li class="nav-item">
@@ -38,39 +41,41 @@
                 </div>
             </nav>
         </header>
-        <div id="bordaLogin">
+        <div id="bordaLogin2">
             <div class="borda">
                 <div class="container mt-5" id="login">
-                    <h2 class="text-center">Cadastro de Jogos</h2>
+                    <h2 class="text-center">Cadastro de Animes</h2>
                     <form>
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="imgJog"><i class="fa-solid fa-folder"></i></span>
-                            <input type="file" class="form-control" id="input" placeholder="Insira a imagem do jogo" />
+                            <input type="file" class="form-control " id="input" placeholder="Imagem" />
                         </div>
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="nomeJog"><i class="fa-solid fa-signature"></i></span>
-                            <input type="text" class="form-control" placeholder="Nome do jogo" aria-label="nomejog"
+                            <input type="text" class="form-control" placeholder="Nome do Anime" aria-label="nomejog"
                                 aria-describedby="basic-addon1">
                         </div>
                         <div class="input-group mb-3">
-                            <span class="input-group-text" id="imgJog"><i class="fa-solid fa-gamepad"></i></span>
+                            <span class="input-group-text" id="imgJog"><i class="fa-solid fa-clapperboard"></i></span>
                             <select class="form-select" aria-label="Default select example" id="tipoJogo">
-                                <option selected>Selecione o gênero do jogo</option>
-                                <option value="fps">Fps</option>
-                                <option value="moba">Moba</option>
-                                <option value="battleRoyale">Battle Royale</option>
+                                <option selected id="tipoAnime">Selecione o tipo do Anime</option>
+                                <option value="tv">TV</option>
+                                <option value="movie">Filme</option>
+                                <option value="ova">Original Video Animation</option>
                             </select>
                         </div>
                         <a href="https://getbootstrap.com/docs/5.3/components/navbar/"><button id="btnlog" type="button"
-                                class="btn navega btn-block">Resgistrar jogo</button></a>
+                                class="btn navega btn-block">Resgistrar Anime</button></a>
                     </form>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <footer>
-                &copy; Todos os direitos reservado
-            </footer>
+        <div class="cont">
+            <div class="container">
+                <footer>
+                    &copy; Todos os direitos reservados
+                </footer>
+            </div>
         </div>
 
     </body>

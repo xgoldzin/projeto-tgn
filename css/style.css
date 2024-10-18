@@ -1,20 +1,34 @@
-*{
-    font-family: "Pixelify Sans", sans-serif;
+* {
+    font-family: "Quicksand", sans-serif;
     list-style: none;
+    text-decoration: none;
 }
 
 #bordaLogin{
-    background-color: rgb(250, 250, 250);
-    padding: 210px 260px 300px 260px;
+    background-color: rgb(32, 32, 32);
+    padding-top: 226px;
+    padding-bottom: 226px;
 }
 
-footer{
-    margin-top: 30px;
-    margin-left: 30px;
+#bordaLogin2{
+    background-color: rgb(32, 32, 32);
+    padding-top: 256px;
+    padding-bottom: 256px;
+}
+
+#bordaLogin3{
+    background-color: rgb(32, 32, 32);
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.cont{
+    background-color: rgb(255, 100, 52);
+    padding:9px;
 }
 
 .navega{
-    background-color: rgb(41, 109, 255);
+    background-color: rgb(255, 100, 52);
     color: aliceblue;
 }
 
@@ -27,31 +41,85 @@ footer{
 }
 
 #barraid1{
-    color: aliceblue;
+    color: rgb(32, 32, 32);
 }
 #barraid2{
-    color: aliceblue;
+    color: rgb(32, 32, 32);
 }
 #barraid3{
-    color: aliceblue;
+    color: rgb(32, 32, 32);
 }
 
 #userNav{
-    color: aliceblue;
+    color:F;
 }
 
 #iconeUsuario{
-    font-size: 300px;
-    padding: 40% 0% 0% 48%;
-    color:rgb(41, 109, 255);
+    font-size: 1500%;
+    padding: 40% 100%;
+    color:rgb(255, 100, 52);
 }
 
 #infosUsuario{
     padding: 5% 0% 5% 0%;
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(32, 32, 32);
 }
 
 #cards{
     margin-top: 7%;
 }
 
+h2{
+    color: rgb(255, 100, 52);
+}
+
+form{
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    background-color:rgb(49, 49, 49);
+    padding: 25px 25px;
+    border-radius: 20px;
+}
+
+#tipoAnime{
+    color:aliceblue
+}
+
+#animes{
+    background-color: black;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 100px;
+}
+
+button {
+    margin: 0 auto; /* Centraliza o botão dentro da célula */
+}
+
+table {
+    color: aliceblue;
+    width: 100%; /* Para a tabela ocupar toda a largura */
+}
+
+th {
+    padding: 15px; /* Aumenta o espaçamento entre os cabeçalhos */
+}
+
+tr {
+    border-bottom: 1px solid aliceblue; /* Adiciona uma borda entre as linhas da tabela */
+}
+
+tbody tr:last-child {
+    border-bottom: none; /* Remove a borda da última linha */
+}
+
+hr {
+    border-color: aliceblue;
+}
+
+td{
+    padding: 50px 20px;
+}
