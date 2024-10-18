@@ -18,8 +18,8 @@
 
 #bordaLogin3{
     background-color: rgb(32, 32, 32);
-    padding-top: 116px;
-    padding-bottom: 116px;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .cont{
@@ -86,7 +86,9 @@ form{
     color:aliceblue
 }
 
-#tabela
+#animes{
+    background-color: black;
+}
 
 h1 {
     color: aliceblue;
