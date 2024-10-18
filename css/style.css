@@ -86,3 +86,38 @@ form{
     color:aliceblue
 }
 
+#tabela
+
+h1 {
+    color: aliceblue;
+    font-size: 100px;
+}
+
+button {
+    margin: 0 auto; /* Centraliza o botão dentro da célula */
+}
+
+table {
+    color: aliceblue;
+    width: 100%; /* Para a tabela ocupar toda a largura */
+}
+
+th {
+    padding: 15px; /* Aumenta o espaçamento entre os cabeçalhos */
+}
+
+tr {
+    border-bottom: 1px solid aliceblue; /* Adiciona uma borda entre as linhas da tabela */
+}
+
+tbody tr:last-child {
+    border-bottom: none; /* Remove a borda da última linha */
+}
+
+hr {
+    border-color: aliceblue;
+}
+
+td{
+    padding: 50px 20px;
+}
