@@ -140,6 +140,16 @@ td{
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    background-color:rgb(49, 49, 49);
+    background-color:black;
     /* padding: 25px 25px; */
+}
+
+
+.fundosobre {
+    width: 100%;
+    background-color:black;
+}
+
+.sobre{
+    padding: 230px;
 }
