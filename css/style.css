@@ -92,7 +92,7 @@ form{
 }
 
 #animes{
-    background-image: url('/img/wallpaper_tgn.png');
+    background-image: url('../img/wallpaper_tgn.png');
     background-size: cover; /* Ajusta a imagem para cobrir toda a área */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
